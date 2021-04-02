@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_KEY = 'faf7e5bb';
-const END_POINT = 'http://www.omdbapi.com/';
+const END_POINT = 'https://www.omdbapi.com/';
 
 const getMovies = async (value) => {
     const { searchValue, page } = value;

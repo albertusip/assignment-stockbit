@@ -15,7 +15,7 @@ const MovieDetail = () => {
 
     useEffect(() => {
         getMovie(id);
-    }, []);
+    }, [id]);
 
     const getMovie = async (id) => {
         setLoading(true);

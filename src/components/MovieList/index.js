@@ -17,6 +17,7 @@ const MovieList = () => {
 
 	useEffect(() => {
 		loadMovieList(searchMovies.name, 1, 'search');
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [searchMovies.isSearch]);
 
 	const handleScroll = () => {
